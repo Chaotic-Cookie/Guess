@@ -2,6 +2,7 @@
 Mariam Khatib
 Cis 140
 lab 4: Guessing
+IDE: intellij
 
 This lab will have the users guess out a randomly generated number
  */
@@ -61,7 +62,7 @@ public class Guess {
                guess = console.nextInt();
                numguess++;
 
-               if (guess == num) {
+               if (guess == num) { // test enum here
                    win = true;
                    System.out.println("You got it right in " + numguess + " guesses");
                } else if (guess > num) {
