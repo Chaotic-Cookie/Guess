@@ -11,7 +11,10 @@ import java.util.*;
 
 public class Guess {
     private static Scanner console = new Scanner(System.in);
-
+    enum results {
+        HIGH, LOW, CORRECT;
+    }
+    
     public static void main(String[] args) {
         GameIntro();
 
@@ -21,6 +24,7 @@ public class Guess {
         String userreply;
         int bestgame = 1000000000;
         boolean nextgame = true;
+
 
         while (nextgame) {
             guess = TheGame();
