@@ -9,6 +9,9 @@ This lab will have the users guess out a randomly generated number
 import java.util.Scanner;
 import java.util.*;
 
+
+//sos some one come save me
+
 public class Guess {
     private static Scanner console = new Scanner(System.in);
     enum results { //to test later, new edit as of 8:30 04/17
@@ -71,7 +74,7 @@ public class Guess {
                    System.out.println("You got it right in " + numguess + " guesses");
                } else if (guess > num) {
                    System.out.println("It's lower");
-               } else if (guess < num) {
+               } else {
                    System.out.println("It's higher");
                }
            }
