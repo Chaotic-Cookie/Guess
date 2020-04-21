@@ -14,7 +14,7 @@ public class Guess { //program start
     enum results { //to test later, new edit as of 8:30 04/17
         HIGH, LOW, CORRECT;
     }
-    //hahahahaha
+
 
     public static void main(String[] args) { //main start
         GameIntro();
