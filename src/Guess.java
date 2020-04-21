@@ -28,10 +28,6 @@ import java.util.*;
 
 public class Guess {
     private static Scanner console = new Scanner(System.in);
-    enum results { //to test later, new edit as of 8:30 04/17
-        HIGH, LOW, CORRECT;
-    }
-
     public static void main(String[] args) { //This main method calls an initial game and then creates a while loop so that
         //unless the user inputs a phrase that starts with "n", the user will continue to play again.
         //If user inputs a "n" word, main will call "TheResult" method and end.
