@@ -9,14 +9,13 @@ This lab will have the users guess out a randomly generated number
 import java.util.Scanner;
 import java.util.*;
 
-public class Guess { //program start
+public class Guess {
     private static Scanner console = new Scanner(System.in);
     enum results { //to test later, new edit as of 8:30 04/17
         HIGH, LOW, CORRECT;
     }
-    //hahahahaha
 
-    public static void main(String[] args) { //main start
+    public static void main(String[] args) {
         GameIntro();
 
         int guess;
@@ -43,9 +42,9 @@ public class Guess { //program start
         }
 
         TheResult(numguess, numgame,bestgame);
-    } //main end
+    }
 
-    public static void GameIntro(){ //intro start
+    public static void GameIntro(){
         System.out.println("This program allows you to play a guessing game.");
         System.out.println("I will think of a number between 1 and");
         System.out.println("100 and will allow you to guess until");
@@ -54,9 +53,8 @@ public class Guess { //program start
         System.out.println("than your guess.");
         System.out.println();
 
-    } //intro end
-
-       public static int TheGame() { //the game start
+    }
+       public static int TheGame() {
            Random random = new Random();
            int num = random.nextInt(100);
            int guess;
@@ -79,14 +77,14 @@ public class Guess { //program start
            }
            return numguess;
 
-       }// the game end
-       public static void TheResult(int numguess, int numgame, int bestgame) { //result start
+       }
+       public static void TheResult(int numguess, int numgame, int bestgame) {
 
            System.out.println("Total games: " + numgame);
            System.out.println("Total Guesses: " + numguess);
            System.out.println("guesses/games: " + (numguess / numgame));
            System.out.println("Best game: " + bestgame);
 
-       } //end of results
+       }
 
-}// program end
+}
