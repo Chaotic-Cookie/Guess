@@ -1,5 +1,5 @@
 
-//Users: Mariam Khatib, "Doc" Nathan Cowley, Kylie Johnson
+//Users: Mariam Khatib, "Doc" Nathan Cowley, Kylee Johnson
 //"Non-user program assistant": "Tron"
 //CS 145
 //Lab 1: Guessing Game
